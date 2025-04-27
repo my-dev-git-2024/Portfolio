@@ -24,7 +24,7 @@ export default function Portfolio() {
 
 
     return(
-        <section className=' px-0  pt-28 pb-0 block'>
+        <section className=' px-0  pt-28 pb-0 block '>
             <div className=' container mx-auto px-4'>
                 <div className=' grid  sm:grid-cols-3 grid-cols-1'>
                     <div className=' col-span-1 px-4'>
@@ -59,25 +59,25 @@ export default function Portfolio() {
                         </div>
                     </div>  
                 </div>
-            </div>
-            <div className="grid md:grid-cols-3 gap-5 md:mt-14 mt-4">
-                {filterImages &&
-                    filterImages.map((item , id)=>{
-                        const {imageUrl,url} = item ;
-                        return(
-                            <div className='overflow-hidden  group  px-2 shadow-lg'key={id}>
-                                <a href={url} className=" cursor-pointer" target="_blank" rel="noopener noreferrer">
-                                {/* <p className=" group-hover: opacity-20">uhbfjdnfbjkdfbn</p> */}
-                                    <img
-                                        className='w-full h-full object-cover cursor-pointer hover:scale-105 transform transition-transform duration-300'
-                                        src={imageUrl}
-                                        alt='demo-img'
-                                    />
-                                   
-                                </a>
-                            </div>
-                        );
-                    })}
+                <div className="grid md:grid-cols-3 gap-5 md:mt-14  mx-10">
+                    {filterImages &&
+                        filterImages.map((item , id)=>{
+                            const {imageUrl,url} = item ;
+                            return(
+                                <div className='overflow-hidden   group  px-2 shadow-lg'key={id}>
+                                    <a href={url} className=" cursor-pointer" target="_blank" rel="noopener noreferrer">
+                                    {/* <p className=" group-hover: opacity-20">uhbfjdnfbjkdfbn</p> */}
+                                        <img
+                                            className='w-full h-full object-cover cursor-pointer hover:scale-105 transform transition-transform duration-300'
+                                            src={imageUrl}
+                                            alt='demo-img'
+                                        />
+                                    
+                                    </a>
+                                </div>
+                            );
+                        })}
+                </div>
             </div>
         </section>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import bgimage from "../../assets/images/new.jpg";
 import newProfile from "../../assets/images/img-3.png";
+import { SiLinkedin ,SiGithub ,SiLeetcode } from "react-icons/si";
 
 
 export default function Profile() {
@@ -35,22 +36,30 @@ export default function Profile() {
                               </ul>
                               <ul className=' m-0 p-0'>
                                 <li className=' m-0 p-0 inline-block'>
-                                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target='_blank' 
+                                    <a href="https://www.linkedin.com/in/subhashinivelaytham/" target='_blank' 
                                     className=' bg-socialicon  hover:bg-yellow text-alltext inline-block no-underline 
                                                 p-0 cursor-pointer h-9 w-9 leading-10 rounded-need overflow-hidden 
                                                 z-1 relative mx-1 mb-1 mt-0 transition-all duration-0.2 ease-in-out
                                                 transform hover:scale-110'>
-                                        <ion-icon name="logo-linkedin" size=""  className=' cursor-pointer'></ion-icon>
+                                        <SiLinkedin  className='w-full h-full p-2'/>
                                     </a>
                                 </li>
-                                {/* <li className=' m-0 p-0 inline-block '>
-                                    <a href="#" className=' bg-socialicon  hover:bg-yellow text-alltext inline-block no-underline 
+                                <li className=' m-0 p-0 inline-block '>
+                                    <a href="https://github.com/my-dev-git-2024" className=' bg-socialicon  hover:bg-yellow text-alltext inline-block no-underline 
                                                             p-0 cursor-pointer h-9 w-9 leading-10  rounded-need overflow-hidden z-1 
                                                             relative mx-1 mb-1 mt-0 transition-all duration-0.2 ease-in-out
                                                             transform hover:scale-110'>
-                                        <ion-icon name="logo-instagram" size="" className =' cursor-pointer'></ion-icon>
+                                                                <SiGithub  className='w-full h-full p-2'/>
                                     </a>
-                                </li> */}
+                                </li>
+                                <li className=' m-0 p-0 inline-block '>
+                                    <a href="https://leetcode.com/u/subhashinivelaytham/" className=' bg-socialicon  hover:bg-yellow text-alltext inline-block no-underline 
+                                                            p-0 cursor-pointer h-9 w-9 leading-10  rounded-need overflow-hidden z-1 
+                                                            relative mx-1 mb-1 mt-0 transition-all duration-0.2 ease-in-out
+                                                            transform hover:scale-110'>
+                                        <SiLeetcode className='w-full h-full p-2' />
+                                    </a>
+                                </li>
                               </ul>
                         </div>
                     </div>

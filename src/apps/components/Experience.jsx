@@ -37,8 +37,7 @@ export function Experience(){
                                 </h5>
                                 <h6 className="mt-2.5">JANUARY 2024 - JANUARY 2025</h6>
                                 <p className=" my-7">
-                                    I began my developer journey at HEPL and have grown to a full-stack developer, 
-                                    honing my skills and expertise with a focus on internal websites and e-commerce website.
+                                My journey as a developer began at HEPL, where I evolved into a full-stack developer by building powerful internal tools and dynamic e-commerce websites that deliver real impact.
                                 </p>
                         </div>
                         <div className=" text-alltext mb-12">

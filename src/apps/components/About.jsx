@@ -18,7 +18,7 @@ export function About(){
                     <div className=' col-span-2 px-4'>
                         <div className='  text-text-color '>
                             <p className=" mb-12">
-                                Hi, I'm Subashini. An experienced PHP web developer based in Tamil Nadu, India. 
+                                Hi, I'm Subashini. An experienced PHP laravel developer based in Tamil Nadu, India. 
                                 I have honed my skills to deliver high-quality, efficient, and scalable solutions.
                                 My tech stock includes,
                             </p>

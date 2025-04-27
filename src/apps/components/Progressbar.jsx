@@ -41,11 +41,11 @@ function Circular() {
     { id: 1, name: 'HTML&CSS', score: 75 },
     { id: 2, name: 'JQUERY', score: 60 },
     { id: 3, name: 'PHP', score: 85 },
-    { id: 4, name: 'MYSQL', score: 65 },
-    { id: 5, name: 'LARAVEL', score: 50 },
-    { id: 6, name: 'REACT JS', score: 40 },
-    { id: 7, name: 'WORDPRESS', score: 60 },
-    { id: 8, name: 'POSTMAN', score: 50 },
+    { id: 4, name: 'LARAVEL', score: 65 },
+    { id: 5, name: 'MYSQL', score: 60 },
+    { id: 6, name: 'WORDPRESS', score: 60 },
+    { id: 7, name: 'REACT JS', score: 40 },
+    { id: 8, name: 'POSTMAN', score: 40 },
   ];
 
   return (

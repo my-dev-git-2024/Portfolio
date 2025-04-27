@@ -24,7 +24,7 @@ export default function Portfolio() {
 
 
     return(
-        <section className=' px-0  pt-28 pb-0 block '>
+        <section className=' px-0  md:pt-28 pt-10 pb-0 block '>
             <div className=' container mx-auto px-4'>
                 <div className=' grid  sm:grid-cols-3 grid-cols-1'>
                     <div className=' col-span-1 px-4'>
@@ -38,7 +38,7 @@ export default function Portfolio() {
                         </div>
                     </div>
                     <div className=' col-span-2 px-4'>
-                        <div className=' mt-60 text-text-color'>
+                        <div className='mt-0 pb-5 text-text-color md:mt-60'>
                             {
                                 btns.map((item,id) =>{
                                     const {name, value } = item;

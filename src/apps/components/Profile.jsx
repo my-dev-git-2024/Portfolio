@@ -16,7 +16,7 @@ export default function Profile() {
                               <div className='relative  m-auto  overflow-hidden rounded-full sm:h-52 sm:w-52 sm:-top-28 sm:-mb-16 mb-3 top-0 w-4/5 h-auto'>
                                 <img src={newProfile}  className='w-full m-0 p-0  align-middle'/>
                               </div>      
-                              <div className='font-Poppins text-new leading-4 font-semibold'>
+                              <div className='font-Poppins text-new leading-4 font-semibold py-4'>
                                 <strong className='uppercase'>subashini </strong>
                               </div>
                               <h4 className=' text-yellow text-xl  mt-3'>Full stack Developer</h4>
